@@ -1,0 +1,119 @@
+-- SELECT * FROM c
+------------------------2
+-- SELECT c.station_name,c.city,c.status from c
+------------------------------------------------3
+-- SELECT c.station_name , c.capacity_kw , c.daily_sessions , c.revenue from c
+--------------------------------------------------------------------------------4
+--select c.id,c.station_name from c
+---------------------------------------5
+-- select * from c where c.city='Hyderabad'
+-------------------------------------------6
+--select * from c where c.city='Mumbai'
+-----------------------------------------7
+-- select * from c where c.status='Maintenance'
+-----------------------------------------------8
+--select * from c where c.station_type='Fast'
+------------------------------------------------9
+--select * from c where c.connector_type='CCS2'
+--------------------------------------------------10
+--select * from c where c.capacity_kw>100
+---------------------------------------------11
+--select * from c where c.revenue>15000
+-------------------------------------------------12
+--select * from c where c.daily_sessions>40
+--------------------------------------------13
+--select * from c where c.uptime_percent<96
+---------------------------------------------14
+--select * from c where c.capacity_kw>50 and c.capacity_kw<120
+------------------------------------------------------------------15
+--select * from c where c.revenue<10000
+-------------------------------------------16
+--select * from c where c.station_type='Fast' and c.status='Active'
+--------------------------------------------------------------------17
+--select * from c where c.city='Hyderabad' and c.revenue>10000
+----------------------------------------------------------------18
+-- select * from c where c.capacity_kw>100 and c.daily_sessions>40
+-----------------------------------------------------------------19
+-- select * from c where c.uptime_percent>97 and c.status='Active'
+-------------------------------------------------------------------20
+--select * from c where c.station_type='Standard' and c.revenue<10000
+------------------------------------------------------------------------21
+--select * from c where c.city='Hyderabad' or c.city='Bengaluru'
+---------------------------------------------------------------------22
+--select * from c where c.zone='North' or c.zone='South'
+---------------------------------------------------------------23
+--select * from c where c.station_type='Fast' or c.revenue>20000
+------------------------------------------------------------------24
+--select * from c where c.city='Mumbai' or c.city='Delhi' or c.city='Chennai'
+---------------------------------------------------------------------------------25
+--select * from c order by c.revenue asc
+------------------------------------------------26
+--select * from c order by c.revenue desc
+-----------------------------------------------27
+--select * from c order by c.daily_sessions desc
+----------------------------------------------------28
+--select * from c order by c.uptime_percent asc
+-------------------------------------------------------------------------------------29
+--select * from c order by c.city asc, c.revenue desc
+--------------------------------------------------------------30
+-- select count(c.id) from c
+---------------------------------31
+--select count(c.id) from c where c.status='Active'
+-----------------------------------------------------32
+--select count(c.id) from c where c.station_type='Fast'
+------------------------------------------------------33
+--select count(c.id) from c where c.city='Pune'
+----------------------------------------------------34
+--select count(c.id) from c where c.revenue>15000
+----------------------------------------------------35
+--select c.city,count(c.id) from c group by c.city
+-------------------------------------------------------36
+--select c.station_type, count(c.id) from c group by c.station_type
+---------------------------------------------------------------------37
+--select c.status,count(c.id) from c group by c.status
+----------------------------------------------------------------38
+--select c.city, sum(c.revenue) from c group by c.city
+-------------------------------------------------------------39
+-- select  c.station_type, avg(c.revenue) from c group by c.station_type
+--------------------------------------------------------------------------40
+-- select c.city,avg(c.uptime_percent) from c group by c.city
+--------------------------------------------------------------------41
+--select c.city, sum(c.daily_sessions) from c group by c.city
+---------------------------------------------------------------42
+--select c.station_type,avg(c.capacity_kw) from c group by c.station_type
+---------------------------------------------------------------------------43
+--select c.city, sum(c.revenue) from c where c.status='Active' group by c.city
+-------------------------------------------------------------------------------------44
+--select c.city, count(c.id) from c where c.station_type='Fast' group by c.city
+------------------------------------------------------------------------------------45
+-- select c.city, avg(c.revenue) from c where c.revenue>8000 group by c.city
+-------------------------------------------------------------------------------46
+--select c.station_type, sum(c.daily_sessions) from c group by c.station_type
+--------------------------------------------------------------------------------47
+--SELECT TOP 5 * FROM c ORDER BY c.revenue DESC
+--------------------------------------------------48
+--select top 3 * from c order by c.daily_sessions desc
+---------------------------------------------------------49
+--select * from c where c.status='Active' and c.station_type='Fast' order by c.revenue desc
+--------------------------------------------------------------------------------------------------50
+--select * from c where c.revenue>12000 and c.uptime_percent>97 order by c.revenue desc
+-----------------------------------------------------------------------------------------51
+--select * from c where (c.city='Hyderabad' or c.city='Bengaluru') and c.daily_sessions>30
+-----------------------------------------------------------------------------------------------52
+--select * from c where c.status='Maintenance' order by c.uptime_percent asc
+----------------------------------------------------------------------------------53
+--select c.station_name, c.city, c.revenue, c.uptime_percent from c where c.revenue>15000
+--------------------------------------------------------------------------------------------54
+--select * from c where c.capacity_kw>=120 and c.station_type='Fast' order by c.capacity_kw desc
+----------------------------------------------------------------------------------------------------55
+-- select top 1 c.city, sum(c.revenue) from c group by c.city order by c.revenue desc  
+-------------------------------------------------------------------------------------------56
+--select top 1 c.station_name, c.revenue from c order by c.revenue desc
+--------------------------------------------------------------------------57
+--select top 1 c.station_name, c.uptime_percent from c order by c.uptime_percent asc
+--------------------------------------------------------------------------------------------58
+-- SELECT TOP 1 c.station_type, AVG(c.revenue) FROM c GROUP BY c.station_type ORDER BY c.avg_revenue DESC
+------------------------------------------------------------------------------------------------------------59
+-- select top 1 c.city,sum(c.daily_sessions) from c group by c.city order by c.daily_sessions desc
+-----------------------------------------------------------------------------------------------------60
+-- select count(c.id) from c where c.status='Maintenance'
