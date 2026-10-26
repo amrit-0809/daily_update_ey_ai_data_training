@@ -1,0 +1,1 @@
+this is a clone of amazon which includes some simple features of amazon
