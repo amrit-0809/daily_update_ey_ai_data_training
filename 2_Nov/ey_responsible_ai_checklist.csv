@@ -1,0 +1,10 @@
+EY principle,Classroom check,Status
+Accountability,Who owns the RAG app and reviews failures? (10_log_ai_feedback.py logs answers and feedback),REQUIRES HUMAN OWNER
+Data protection,Avoid sending employee identifiers to external models (guardrails.py blocks PII before OpenRouter),GUARDRAIL ACTIVE
+Reliability,Run evaluate.py / benchmark.py to compare question results; 15_hallucination_test.py for unsupported answers,TEST AVAILABLE
+Security,Keep API keys out of source control (.env must be listed in .gitignore),ACTION NEEDED: add .env to .gitignore
+Transparency,Tell users that generated answers are AI-generated,ADD UI DISCLOSURE
+Explainability,Show retrieved source chunk IDs and excerpts (16_source_trace.py),DEMO AVAILABLE
+Fairness,Compare equivalent policy questions across groups (e.g. same question for different roles/locations),NO DEMO YET
+Compliance,"Confirm organizational, legal and data-retention rules (incl. feedback CSV logs)",MANUAL REVIEW
+Sustainability,Compare model/infrastructure resource needs (compare_models.py measures model speed),MANUAL REVIEW
