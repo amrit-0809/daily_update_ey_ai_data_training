@@ -1,0 +1,15 @@
+# LangChain (Exercise 1)
+langchain-core
+langchain-text-splitters
+langchain-chroma
+langchain-huggingface
+# LlamaIndex (Exercise 2)
+llama-index-core
+llama-index-vector-stores-chroma
+llama-index-embeddings-huggingface
+# Haystack (Exercise 3)
+haystack-ai
+sentence-transformers-haystack
+# Shared
+chromadb
+sentence-transformers

@@ -1,0 +1,23 @@
+HARBORLIGHT SCIENCE MUSEUM - VISITOR GUIDE
+Training Edition 1.0 | Fictional museum and sample policies
+
+ABOUT THE MUSEUM
+Harborlight Science Museum offers interactive exhibitions on space, oceans, robotics, and everyday science. This information is fictional and intended only for a Python retrieval exercise.
+
+OPENING HOURS
+The museum opens Tuesday through Sunday at 10:00 AM. Normal closing time is 6:00 PM. On Thursdays, the museum stays open until 8:00 PM. The museum is closed on Mondays. Visitors must enter at least 45 minutes before closing time.
+
+ADMISSION TICKETS
+A regular adult ticket costs INR 450. A student ticket costs INR 300 with a valid student ID. Children younger than 6 years can enter free of charge when accompanied by an adult. Tickets include access to the permanent exhibits. Workshops and special planetarium screenings are charged separately.
+
+BOOKING AND CHANGES
+Visitors can buy admission tickets online or at the ticket counter, subject to capacity. Online tickets can be rescheduled once if the request is made at least 24 hours before the booked visit. Tickets are not refundable for a missed visit. Visitors should keep the booking confirmation until entry.
+
+VISITOR FACILITIES
+A free drinking-water station is available near the lobby. Small lockers are provided at no charge for the first two hours; after that, a locker costs INR 50 per additional hour. Food and drinks are not permitted inside the exhibition galleries. A cafe is available near the museum exit. The museum has an elevator and wheelchair-accessible restrooms.
+
+PHOTOGRAPHY AND CONDUCT
+Personal photography is permitted in most galleries, but flash photography and tripods are not allowed. Visitors must not touch exhibits marked 'Display Only'. Children must be supervised by an adult. Large groups should contact the museum before visiting.
+
+CONTACT
+Questions about admission tickets and visitor services can be directed to the museum's visitor desk during opening hours. This sample guide does not define parking availability, annual memberships, or travel reimbursement.
