@@ -1,0 +1,80 @@
+[
+  {
+    "id": "KB001",
+    "title": "VPN Not Connecting from Home",
+    "category": "Network",
+    "tags": ["vpn", "remote", "home", "connection", "disconnect", "login"],
+    "problem": "Employees cannot connect to the company VPN or the connection drops while working remotely.",
+    "steps": [
+      "Check whether normal websites open on your home internet connection.",
+      "Close and reopen the VPN application.",
+      "Confirm that the VPN client is updated to the company-approved version.",
+      "Try connecting again. If the problem continues, contact the IT helpdesk."
+    ]
+  },
+  {
+    "id": "KB002",
+    "title": "Forgotten Password or Account Locked",
+    "category": "Account",
+    "tags": ["password", "forgot", "reset", "account", "locked", "login", "sign-in"],
+    "problem": "An employee forgot their password or cannot sign in because the account is locked.",
+    "steps": [
+      "Open the company's approved password-reset page.",
+      "Use the registered verification method to complete the reset.",
+      "Wait five minutes before trying the new password.",
+      "If the account remains locked, raise an IT ticket. Never share a password or OTP."
+    ]
+  },
+  {
+    "id": "KB003",
+    "title": "Microsoft Teams App Running Slowly on Mac",
+    "category": "Software",
+    "tags": ["teams", "mac", "slow", "cpu", "heating", "performance", "video"],
+    "problem": "The Teams desktop application uses high CPU or heats up a Mac laptop.",
+    "steps": [
+      "Quit Teams completely and reopen it.",
+      "Install the latest approved Teams version and macOS updates.",
+      "Close other resource-intensive applications and try again.",
+      "If the issue continues, use the browser version temporarily and report the desktop app problem to IT."
+    ]
+  },
+  {
+    "id": "KB004",
+    "title": "Office Wi-Fi Connection Problems",
+    "category": "Network",
+    "tags": ["wifi", "wi-fi", "wireless", "network", "internet", "office"],
+    "problem": "An employee's laptop cannot connect to the office Wi-Fi network.",
+    "steps": [
+      "Check that Wi-Fi is enabled and airplane mode is turned off.",
+      "Select the correct corporate Wi-Fi network.",
+      "Disconnect and reconnect to the network.",
+      "If other devices also cannot connect, report a possible office network outage."
+    ]
+  },
+  {
+    "id": "KB005",
+    "title": "Outlook Is Not Receiving Email",
+    "category": "Software",
+    "tags": ["outlook", "email", "mail", "inbox", "sync", "receive"],
+    "problem": "New emails are not appearing in the Outlook desktop application.",
+    "steps": [
+      "Check the internet connection and whether Outlook is in offline mode.",
+      "Open Outlook on the web to check whether messages arrive there.",
+      "Restart the desktop application and check its sync status.",
+      "If email works on the web but not on desktop, raise an application support ticket."
+    ]
+  },
+  {
+    "id": "KB006",
+    "title": "Laptop Overheating or Fan Running Constantly",
+    "category": "Hardware",
+    "tags": ["laptop", "hot", "overheating", "fan", "temperature", "battery"],
+    "problem": "An employee reports excessive heat or continuous fan noise from a laptop.",
+    "steps": [
+      "Place the laptop on a flat, ventilated surface.",
+      "Close unused applications and check which processes use the most CPU.",
+      "Restart the laptop and install approved system updates.",
+      "If it becomes dangerously hot, smells unusual, or the battery swells, stop using it and contact IT immediately."
+    ]
+  }
+]
