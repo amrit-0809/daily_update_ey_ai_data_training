@@ -1,0 +1,1 @@
+this folder contains a agentic ai system to book a workshop apply discounts etc.
