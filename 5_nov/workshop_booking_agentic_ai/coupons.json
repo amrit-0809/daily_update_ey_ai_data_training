@@ -1,0 +1,14 @@
+[
+  {
+    "coupon_code": "WORKSHOP10",
+    "discount_type": "percentage",
+    "discount_value": 10,
+    "active": true
+  },
+  {
+    "coupon_code": "WORKSHOP20",
+    "discount_type": "percentage",
+    "discount_value": 20,
+    "active": true
+  }
+]
