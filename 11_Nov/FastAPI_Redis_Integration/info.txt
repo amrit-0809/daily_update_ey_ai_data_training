@@ -1,0 +1,1 @@
+this folder contains integration of redis and fastapi to the pycharm agent 
