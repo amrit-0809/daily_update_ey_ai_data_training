@@ -1,0 +1,1 @@
+this folder contains Agent as a Service which integrates the agent within the PYCharm
