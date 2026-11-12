@@ -1,0 +1,5 @@
+agent-framework-foundry>=1.16.1
+agent-framework-core>=1.25.0
+azure-identity
+python-dotenv
+typing_extensions
